@@ -30,9 +30,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.0.2'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    compile 'com.google.android.things.contrib:driver-rainbowhat:1.0'
     compileOnly 'com.google.android.things:androidthings:+'
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
